@@ -1,0 +1,80 @@
+body {
+	
+		width: vh; /* Set the width equal to the viewport height */
+		height: vh; /* Set the height equal to the viewport height */
+		margin: 100; /* Remove default margin */
+		padding: 0; /* Remove default padding */
+		overflow: hidden; /* Hide overflow content */
+	}
+
+
+.icon-circle {
+	width: 64px;
+	height: 64px;
+	vertical-align: middle;
+}
+
+.card-container {
+	width: 500px;
+	height: 400px;
+	margin-left: 200px;
+}
+
+.title {
+	font-size: 32px;
+	font-weight: bold;
+	margin-left: 30px;
+}
+
+.bug-card {
+	width: 500px;
+	height: 400px;
+	margin-top: 30px;
+	border: 1px solid black;
+	background: white;
+	position: relative;
+}
+
+.fab {
+	background: white;
+	height: 30px;
+	width: 30px;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	margin-right: 10px;
+	margin-bottom: 20px;
+}
+
+.btn {
+	margin-top: 20px;
+}
+
+.add-bug-container {
+	left: 250px;
+	width: 400px;
+	height: 200px;
+	background: rgb(225, 121, 121);
+	position: relative;
+}
+
+.bug-done {
+	color: rgb(0, 60, 255);
+	text-decoration: line-through;
+}
+
+form {
+    margin: 20px auto;
+    width: 50%;
+    padding: 50px;
+    border-radius: 100px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-image: url('alessio-soggetti-cfKC0UOZHJo-unsplash.jpg'); /* Replace 'path/to/your/image.jpg' with the path to your image */
+    background-size: cover;
+    background-position: center;
+
+	h1 {
+		text-align: center;
+	}
+}
+
